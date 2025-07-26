@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fastapi-container
-        image: kajalyadav459/fastapi-k8s-app:latest
+        image: kajalyadav459/fastapi-k8s-app:latestv1
         ports:
         - containerPort: 8000
         livenessProbe:
